@@ -48,3 +48,27 @@ nav ul li {
 footer {
     align-items: center;
 }
+/*===== SLIDES =====*/
+/*
+.mySlides {
+    display: none;
+}*/
+img {vertical-align: middle;}
+.wrapper {
+    max-width: 960px;
+    /*align wrapper to the center*/
+    margin: 0 auto;
+    position: relative;
+}
+.text {
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 20px;
+}
+.slideNum {
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+}
