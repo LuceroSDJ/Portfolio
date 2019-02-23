@@ -1,6 +1,8 @@
+/*
 .container {
-    width: 960px;
+    width: 960px;*/
     /*align container to the center*/
+    /*
     margin: 0 auto;
     height: 100%;
 }
@@ -25,15 +27,17 @@ header .myName img {
     float: right;
     display: flex;
     height: 100%;
-}
+}*/
 /*Inherit parent color*/
+/*
 header a {
     color: inherit;
 }
-nav ul {
+nav ul { */
     /*display menu items in a row*/
-    display: flex;
+    /*display: flex;*/
     /*center vertically*/
+    /*
     align-items: center;
     height: 100%;
 }
@@ -42,7 +46,28 @@ nav ul li {
 }
 .header-right a:hover {
     color: red;
+} */
+
+/*=== BOOTSTRAP NAV BAR ====*/
+.nav-item {
+    color: white !important;
+    font-size: 20px;
+    font-family: 'Nova Flat', cursive;
 }
+.nav-item:hover {
+    color: #683090 !important;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 26px;
+}
+.navbar-brand-fluid {
+    font-family: 'Nova Flat', cursive;
+    font-size: 26px;
+    height: 80px;
+}
+
+
+
+
 
 /*===== FOOTER =====*/
 footer {
