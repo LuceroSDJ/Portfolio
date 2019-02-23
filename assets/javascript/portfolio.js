@@ -1,5 +1,4 @@
-alert('hello');
-
+$(document).ready(function(){ 
 var slideIndexNum = 0;
 showSlides();
 
@@ -12,13 +11,24 @@ function showSlides() {
         slides[i].style.display = 'none';
     }
     slideIndexNum++;
-    if(slideIndexNum > slide.length) {
+    if(slideIndexNum > slides.length) {
         slideIndexNum =1
     }
     
    slides[slideIndexNum-1].style.display = "block";  
-   setTimeout(showSlides, 2000); // Change image every 2 seconds
-   
+   setTimeout(showSlides, 4000); // Change image every 4 seconds  
+}
 
-   slides.show(); 
- }
+
+
+
+
+
+
+
+
+
+
+
+
+});

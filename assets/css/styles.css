@@ -49,11 +49,15 @@ footer {
     align-items: center;
 }
 /*===== SLIDES =====*/
-/*
+
 .mySlides {
     display: none;
-}*/
-img {vertical-align: middle;}
+}
+img {
+    vertical-align: middle;
+    height: 500px;
+    
+}
 .wrapper {
     max-width: 960px;
     /*align wrapper to the center*/
