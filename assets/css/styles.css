@@ -1,0 +1,50 @@
+.container {
+    width: 960px;
+    /*align container to the center*/
+    margin: 0 auto;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+}
+header .myName img {
+    height: 70px;
+    width: 200px;
+}
+.page-header {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(226, 116, 43);
+}
+.header-left {
+    float: left;
+    display: flex;
+    height: 100%;
+}
+.header-right {
+    float: right;
+    display: flex;
+    height: 100%;
+}
+/*Inherit parent color*/
+header a {
+    color: inherit;
+}
+nav ul {
+    /*display menu items in a row*/
+    display: flex;
+    /*center vertically*/
+    align-items: center;
+    height: 100%;
+}
+nav ul li {
+    margin: 0 0 0 10px;
+}
+.header-right a:hover {
+    color: red;
+}
+
+/*===== FOOTER =====*/
+footer {
+    align-items: center;
+}
