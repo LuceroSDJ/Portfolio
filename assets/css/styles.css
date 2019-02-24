@@ -105,7 +105,7 @@ nav ul li {
 }
 
 /*=== ABOUT ===*/
-#about {
+.about {
     padding: 70px 0;
 }
 .myPicture {
@@ -133,4 +133,18 @@ p {
 /*===== FOOTER =====*/
 .card-footer {
     height: 50px;
+}
+
+/*===== CONTACT FORM ====*/
+.buttonForm {
+    width: 20%;
+    border-radius: 30px;
+}
+.formWrapper {
+    padding: 30px 0;
+}
+
+/*==== PORTFOLIO ====*/
+.portfolioWrapper {
+    padding: 40px 0 80px 0;
 }
