@@ -14,7 +14,7 @@
     <link rel='stylesheet' href='assets/css/reset.css'>
     <link rel='stylesheet' href='assets/css/styles.css'>
     <!-- Link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Nova+Flat|Spicy+Rice" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cormorant+Infant|Nova+Flat|Spicy+Rice" rel="stylesheet">
 </head>
 <body>
     
@@ -39,35 +39,14 @@
         <div class="text">CREATIVE</div>
     </div>
 </div>
-    <!--   
-        <header class='page-header'>
-            <div class='container'>
-                <div class='header-left'>
-                    <div class='myName'>
-                        <a href=''>
-                            <img src='assets/images/background1.jpeg' alt='test background for my name'>
-                        </a>
-                    </div>
-                </div>
-                <div class='header-right'>
-                    <nav>
-                        <ul>
-                            <li><a href=''>About</a></li>
-                            <li><a href=''>Portfolio</a></li>
-                            <li><a href=''>Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-    --> 
+    
 <!-- Responsive navbar -->
 <div class="navContainer sticky-top" style="background-color: #d74c30"> <!-- stickied to the top is supported in all browsers -->
     <div class="container px-0 py-0" style="background-color: #d74c30"> <!--I am amazed! This div centers my navbar -->
         <!-- try different colors: bg-primary, bg-syucces, bg-warning, bg-info, and bg-danger -->
         <nav id='nav' class="navbar navbar-expand-lg navbar-light bg-light mx-auto pt-0 pb-0 px-0" style="background-color: #d74c30 !important">
             <!--Add fluid to make navbar-brand (my name) responsive -->
-            <a class="navbar-brand-fluid text-white p-4" style="background-color: #9d2b54" href="#">Carmen Lucero</a> <!-- here I must change href=placegholder to an <img src=""></a>-->
+            <a class="navbar-brand-fluid text-white p-4" style="background-color: #9d2b54" href="index.html">Carmen Lucero</a> <!-- here I must change href=placegholder to an <img src=""></a>-->
             <!-- <span class="navbar-text">I can ADD TXT 😎</span> DO NOT USE. JUST FOR MY INFO -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -75,7 +54,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="background-color: #d74c30">
                 <div class="navbar-nav ml-auto"> <!-- this line of code aligns the text to the right! Amazing!-->
                     <!-- text-dark changes text color-->
-                    <a class="nav-item nav-link p-3" href="index.html">About</a>
+                    <a id="preventDefault" class="nav-item nav-link p-3" href="index.html">About</a>
                     <a class="nav-item nav-link p-3" href="portfolio.html">Portfolio</a>
                     <a class="nav-item nav-link p-3" href="contact.html">Contact</a>
                 </div>
@@ -94,10 +73,10 @@
     </div>
 
     <div class='row'>
-        <div class='col-md-4'>
+        <div id='contentDiv1' class='col-md-4'>
             <img class='myPicture' src='assets/images/myPicture.jpg' alt='my picture'>
         </div>
-        <div class='col-md-8'>
+        <div id='contentDiv2' class='col-md-8'>
             <p>I have to admit I have a pretty long name, and I love it! Some people call me by my first name or last name, but I prefer Lucero. It means light, and it is a synonym of star in Spanish. Honestly, I would love to literally see my name shining on a billboard sign. Just like a star! I have long way to go, but hey, life is long!</p>
             <p>I am a future in-demand web developer, who is currently equipping herself with a solid education and hands on training offered by Trilogy in partnership with UT Austin, to join the Tech industry in the near future. Currently, I am a part of the awesome team at Biryani & Co. I work full-time in their human resources and customer service departments.</p>
             <p>I am a very optimistic person, yet I am realistic and hard working.</p> 
