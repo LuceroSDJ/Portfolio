@@ -120,6 +120,11 @@ p {
 		1px 1px 0 #000;
 }
 
+#aboutMe a:hover {
+    font-size: 40px;
+    color: #9d2b54;
+}
+
 #contactContainerDiv {
     background: transparent !important;
 }
