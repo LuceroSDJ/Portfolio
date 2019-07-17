@@ -16,7 +16,7 @@ $(document).ready(function(){
         
     slides[slideIndexNum-1].style.display = "block";  
     // Change image every 5 seconds 
-    setTimeout(showSlides, 3000);  
+    setTimeout(showSlides, 5000);  
     }
 
 
