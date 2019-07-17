@@ -31,11 +31,22 @@ html {
 
 .mySlides {
     display: none;
+    height: 650px;
+    justify-items: center;
+    margin: auto;
 }
 .slideImages {
     vertical-align: middle;
-    height: 600px; 
-    max-width: 960px; 
+    height: 100%; 
+    /* max-width: 960px;  */
+    width: 100%;
+    margin: auto;
+}
+
+.technologies {
+    vertical-align: middle;
+    height: 100px; 
+    display: flex;
 }
 
 .wrapper {
@@ -44,13 +55,26 @@ html {
     margin: 0 auto;
     position: relative;
 }
+.technologies {
+    position: absolute;
+    text-align: center;
+    /* margin: auto !important; */
+    /* align-items: center; */
+    width: 70%;
+    height: 50%;
+    /* justify-items: center; */
+    top: 15%;
+    /* display: flex; */
+}
 
 .text {
     font-size: 45px;
     position: absolute;
     text-align: center;
-    width: 100%;
-    bottom: 65px;
+    margin: auto !important;
+    /* align-items: center; */
+    /* justify-items: center; */
+    bottom: 130px;
     color: #d74c30;
     font-family: 'Bungee Inline', cursive;
     text-shadow:
@@ -59,17 +83,38 @@ html {
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+
+.techImg {
+    /* top: 10px !important;
+    position: absolute;
+    text-align: center;
+     */
+    height: 40%;
+    border-radius: 40px;
+    /* padding: 10px; */
+    margin:auto;
+    box-shadow: 0 5px 20px rgba(0,0,0,.9);
+    transform: translateY(-10px) scale(1.02); 
+}
+
+
+.credit {
+    color: rgb(148, 146, 146);
+    font-size: 15px;
+    text-shadow: none;
+    position: absolute;
+    text-align: center;
+    padding:10px;
+    /* bottom: 65px; */
+}
+
 .slideNum {
     font-size: 18px;
     position: absolute;
     top: 10px;
 }
 
-.credit {
-    color: black;
-    font-size: 10px;
-    text-shadow: none;
-}
+
 
 /*=== ABOUT ===*/
 .about {
@@ -219,5 +264,19 @@ p {
     }
     #aboutMe a {
         font-size: 22px;
+    }
+}
+
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior */
+/* Using the CSS prefers-reduced-motion media query, we can disable smooth scrolling 
+for users that have opted in to reduced motion in their browser settings. */
+
+/* Vestibular disorders may be caused by disease, aging, or injury. 
+Users with Vestibular disorders may suffer from motion sickness which in turn can cause dizziness, 
+fatigue and nausea. */
+@media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
     }
 }
