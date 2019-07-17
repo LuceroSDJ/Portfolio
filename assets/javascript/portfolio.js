@@ -16,7 +16,7 @@ $(document).ready(function(){
         
     slides[slideIndexNum-1].style.display = "block";  
     // Change image every 9 seconds 
-    setTimeout(showSlides, 9000);  
+    setTimeout(showSlides, 6000);  
     }
 
 
